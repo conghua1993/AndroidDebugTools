@@ -13,8 +13,8 @@ Source: "dist\AndroidDebugTools.exe"; DestDir: "{app}"
 
 Source: "src\commands.json"; DestDir: "{app}"
 Source: "src\shell\*"; DestDir: "{app}\shell"; Flags:recursesubdirs
-Source: "src\bin\*"; DestDir: "{app}\bin"; Flags:recursesubdirs
-Source: "src\tools\*"; DestDir: "{app}\tools"; Flags:recursesubdirs
+; Source: "src\bin\*"; DestDir: "{app}\bin"; Flags:recursesubdirs
+; Source: "src\tools\*"; DestDir: "{app}\tools"; Flags:recursesubdirs
 
 [Icons]
 Name: "{group}\Android Debug Tools"; Filename: "{app}\AndroidDebugTools.exe"
