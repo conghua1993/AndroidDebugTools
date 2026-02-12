@@ -57,6 +57,8 @@ if errorlevel 1 (
     exit /b 1
 )
 
+ISCC installer.iss
+
 echo.
 echo PyInstall Build Successful
 echo.
