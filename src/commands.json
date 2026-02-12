@@ -1,0 +1,35 @@
+{
+    "ui": {
+        "items_per_column": 5,
+        "group_label_width": 14,
+        "item_select_width": 22
+    },
+    "groups": [
+        {
+            "name":"adb",
+            "items": [
+                {
+                    "name": "devices",
+                    "cmd" :"adb devices"
+                },
+                {
+                    "name": "root",
+                    "cmd" :"adb root"
+                },
+                {
+                    "name": "remount",
+                    "cmd" :"adb remount"
+                }
+            ]
+        },
+        {
+            "name":"thermal",
+            "items": [
+                {
+                    "name": "TYPE",
+                    "cmd" :"shell\\thermal_zone_type.bat"
+                }
+            ]
+        }
+    ]
+}
